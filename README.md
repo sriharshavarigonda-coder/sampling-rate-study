@@ -16,7 +16,7 @@ I built a custom flight computer that logged a barometer and an accelerometer at
 | `sensor_test.ino` | Bench test: prints live sensor values to the Serial Monitor without saving anything |
 | `i2c_scan.ino` | Checks that both sensors are detected on the I²C bus |
 | `analyze_flight.py` | Downsamples the log to 50 Hz and 10 Hz and calculates apogee at each rate |
-| `LOG000.CSV` | Raw 100 Hz flight log from the microSD card |
+| `flight1_raw_100Hz.csv` | Raw 100 Hz flight log from the microSD card |
 | `Flight 1.xlsx` | Spreadsheet used for the graphs and analysis in the paper |
 
 ## Data columns (`LOG000.CSV`)
