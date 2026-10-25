@@ -19,7 +19,7 @@ I built a custom flight computer that logged a barometer and an accelerometer at
 | `flight1_raw_100Hz.csv` | Raw 100 Hz flight log from the microSD card |
 | `Flight 1.xlsx` | Spreadsheet used for the graphs and analysis in the paper |
 
-## Data columns (`LOG000.CSV`)
+## Data columns (`flight1_raw_100Hz.csv`)
 
 | Column | Meaning | Unit |
 |---|---|---|
@@ -61,7 +61,7 @@ Arduino IDE with the **Raspberry Pi Pico/RP2040** board package (Earle Philhower
 Requires Python 3 (no extra packages):
 
 ```
-python analyze_flight.py LOG000.CSV
+python analyze_flight.py flight1_raw_100Hz.csv
 ```
 
 ## AI assistance
